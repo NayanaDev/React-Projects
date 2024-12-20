@@ -1,0 +1,27 @@
+ul.products{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+ul.products li {
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 25px;
+    width: 100%;
+    border: 1px solid #ccc; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 7px 7px #ccc;
+}
+ul.products  li img {
+    width: 100px;
+    height: 100px;
+}
+ul.products li button {
+    background-color: darkblue;
+    color: white;
+}

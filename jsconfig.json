@@ -1,0 +1,21 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src"
+//   },
+//   "include": ["src", "jsconfig.json"],
+//   "exclude": ["node_modules,"build"],
+// }
+{
+  "compilerOptions": {
+    "baseUrl" : "./src",
+    "paths": {
+      "Components/*": ["./components/*"],
+      "@ui/*": ["./components/common/ui/*"],
+      "@pages/*": ["./pages/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@api/*": ["./api/*"],
+      "@utils/*": ["./utils/*"],
+      "images/*":["./assets/images/*"],
+    }
+  }
+}
