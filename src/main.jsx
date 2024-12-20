@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
 import './index.css'
 import App from './App.jsx'
-import Profile from './pages/profile.jsx';
-import Projects from './pages/projects.jsx';
+import Profile from './pages/Profile.jsx';
+import Projects from './pages/Projects.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Todo from './pages/todo.jsx';
