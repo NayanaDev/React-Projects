@@ -11,7 +11,7 @@ const Navbar = () => {
             <li> <Link to="/">Home</Link></li>
             <li><Link to="/profile">My Profile</Link></li>
             <li><Link to="/projects">My Projects</Link></li>
-            <li><Link to="/cart">Cart {cartItems}</Link></li>
+            <li><Link to="/cart">Cart {cartItems > 0 && cartItems}</Link></li>
         </ul>
     </nav>
   )
