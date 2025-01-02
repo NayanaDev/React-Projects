@@ -23,6 +23,7 @@ function Cart() {
             <h6>Total</h6>
         </li> 
         {
+            
             cart && cart.map(cart => 
                 <li className = "cartProduct" key={cart.id}> 
                 <img src={cart.images[0] && cart.images[0]} /> 
